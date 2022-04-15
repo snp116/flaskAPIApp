@@ -1,0 +1,9 @@
+- correctness of data is important 
+- marshmallow package helps to verify the client data, but also to verify the data that we send back.
+
+- object = lives in application memory
+- to transfer or store that object, we have to convert it into a storable or transferrable format and that format is will be a stream of bytes. 
+
+- marshmallow allows developers to define schemas --> which can be used to represent a field in various ways 
+          - required and validation
+- **Schema** class : to specify the fields for the objects that we want to serialize/deserialize 
